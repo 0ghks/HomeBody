@@ -88,13 +88,7 @@ margin-bottom: 20%;
 
 
 
-  .teser{float: left;  color: #6D6E71; margin-top: 10%; 
 
-  clear: both;
-  font-size: 6em;
-  font-family: woo;
-margin-bottom: 5%;
-text-align: center;}
 
 
 .bla{padding-bottom: 50%;}
@@ -247,10 +241,12 @@ li a:hover {
 
 }
  
+@media screen and (min-width:1500px){
+.mmmm{display: none;}
+.aaa{display: none;}
 
 
-
-.abc{display: none}
+}
 
     </style>
 
@@ -279,7 +275,7 @@ li a:hover {
   <ul class="list">
     <li><a href="#scroll1" class="scroll_move">인트로</a><li>
     <li><a href="#scroll2" class="scroll_move">포스터</a><li>
-    <li><a href="#scroll3" class="scroll_move">예고편</a><li>
+
     <li><a href="#scroll4" class="scroll_move">등장인물</a><li>
       <li><a href="#scroll5" class="scroll_move">프로젝트</a><li>
         <li><a href="#scroll6" class="scroll_move">만든사람들</a><li>
@@ -319,10 +315,10 @@ li a:hover {
   <div class="scroll2" id="scroll2">
     
     <div class="poster">
-      <div class="slider">
-        <div class="slide"> <div class="posterimg"> <img src="p.png"> </div></div>
-        <div class="slide"> <div class="posterimg"> <img src="02.png"> </div></div>
- 
+     
+         <div class="posterimg"> <img src="p.png"> </div>
+         <div class="posterimg"> <img src="02.png"> </div>
+ <div class="aaa"><img src="aaa.png"></div>
 
   <div class="postertitle">HOMEBODY</div>
 
@@ -339,12 +335,11 @@ li a:hover {
 <div class="scroll3" id="scroll3">
   <div class="projectteser">
 
-    <div class="teser">예고편</div>
+ 
     
   
-    <div id="video_area">
-      <video src="teser.mp4" id="background_video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" volume="0"></video>
-    </div>
+    <p class="tt" align="middie"> <iframe width="560" height="315" src="https://www.youtube.com/embed/3iWppxdtPuA?si=WG5duBOn9xxDcZev" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 
 
@@ -373,7 +368,7 @@ li a:hover {
       
       <div class="man"> <img src="4.png"> </div>
 
-      <div class="abc"><img src="010.png"></div>
+      <div class="mmmm"><img src="010.png"></div>
       
       </div>
   </div>
@@ -455,16 +450,7 @@ li a:hover {
 
 </body>
 
-<script>
-$(document).ready(function($) {
-            $(".scroll_move").click(function(event){
-                console.log(".scroll_move");         
-                event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-            });
 
-        });
-</script>
 
 
 </html>
