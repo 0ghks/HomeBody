@@ -1,0 +1,189 @@
+
+/*휴대폰*/
+@media screen and (max-width:768px){
+
+.intro{
+margin-bottom: 50%;}
+
+
+.title{float: left;  color: #6D6E71; margin-top: 130%; 
+  width: 100%;
+  font-size: 4em;
+  font-family: woo;
+
+text-align: center;
+}
+
+#video_area {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+  
+  
+  
+  }
+  #background_video {
+      z-index: -1;
+      width: 100vw;
+      position: absolute;
+  }
+   
+  
+  .imgcat{
+display: none;}
+  
+  .imgkm{
+
+    display: none;}
+  
+  .imgjh{display: none;}
+  
+  .imgcactus{display: none;}
+  
+  
+  
+  .title{float: left;  color: #6D6E71; margin-top: 70%; 
+    width: 100%;
+    font-size: 6em;
+    font-family: woo;
+  text-align: center;
+  
+  }
+  .subtitle{float: left;  color: #cbcbcb;
+  margin-bottom: 40%;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: Orbit;
+  
+  text-align: center;
+  }
+  
+  
+  
+  .posterimg{ display: none; }
+  
+  .postertitle{float: left; color: #6D6E71;  
+ 
+  margin-left: 0%;
+    font-size: 4em;
+    font-family: woo;
+  }
+  
+  .postertext{float: left;  color: #cbcbcb;
+    text-align: left;
+
+    font-size: 1.2em;
+    font-family: Orbit;}
+  
+  
+    .actortitle{float: left;  color: #6D6E71; margin-top: 20%; 
+    width: 100%;
+    font-size: 6em;
+    font-family: woo;
+  
+  text-align: center;
+  }
+  
+  .actor{
+  clear: both;}
+  
+  .main{display: none;
+  }
+  
+  .cat{display: none;
+  }
+  
+  
+  
+  .cactus{display: none;
+  }
+  
+  .man{display: none;
+  }
+  
+  .mmmm {display: block;
+    display: flex;
+  width:auto;}
+  
+  
+    .projecttitle{float: left;  color: #6D6E71; margin-top: 0%; 
+    width: 100%;
+    font-size: 6em;
+    font-family: woo;
+  margin-bottom: 5%;
+  text-align: center;}
+  
+  span{border-left: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  
+  
+  .maker{
+  
+  clear: both;
+  
+    margin-top:50%; }
+  
+  .makertitle{float: left;  color: #6D6E71; margin-top: 5%; 
+    width: 100%;
+    font-size: 4em;
+    font-family: woo;
+  margin-bottom: 5%;
+  text-align: center;}
+  
+  .makertext{float: left; margin-top: 10%; color: #cbcbcb;
+    width: 100%;
+    font-size: 1em;
+    font-family: Orbit;
+    line-height: 200%;
+  margin-bottom: 50%;
+  text-align: center;
+  }
+  
+  .copy{color: #cbcbcb;
+  
+  padding-bottom:5% ;
+  font-family: Orbit;
+  font-size: 0.8em;
+  display: grid;
+              place-items: center;
+  
+  
+  width: 100%;}
+  
+ 
+  
+  .run{float: right;}
+  
+  .run img{ margin: 0px; padding: 0px;
+  
+    width: 50px; }
+  
+  
+  
+  
+
+  
+  	.list {
+    display: none; /* 작은 화면에서는 메뉴 아이템 숨김 */
+
+  }
+
+
+
+
+  
+
+
+  .tt iframe{width: 560px; height: 315px;}
+  .last iframe{width: 300px; height: 315px;}
+  
+
+
+
+}
